@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav Area */
+
+.all-area{
+    background: rgba(255, 144, 14, 0.1);
+    height: 1100px;
+    margin-bottom: 130px;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 310px;
+    padding-top: 50px;
+}
+
+.nav-right .nav-links{
+    text-decoration: none;
+    margin-left: 34px;
+    color: #424242;
+
+}
+
+.nav-section .nav-left .slogan{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-right{
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+.header-title{
+    text-align: center;
+    margin-top: 102px;
+}
+
+.slogan{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.basic-btn{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.basic-btn:hover{
+    width: 180px;
+    height: 64px;
+    background: #5758BB;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.slogan-gap, .header-description {
+    margin-bottom: 30px;
+}
+
+.banner-photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.banner-photo .cover-img{
+    width: 1000px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+/* Navigation Area End */
+
+/* Features Section */
+
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.small-img{
+    height: 342px;
+    width: 342px;
+}
+
+.features-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.span1{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.span2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.span3{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.f-title{
+    margin-bottom: 24px;
+}
+
+.f-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+.features-right{
+    margin-left: 73px;
+}
+
+/* Features Section End */
