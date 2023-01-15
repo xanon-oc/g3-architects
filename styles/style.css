@@ -304,6 +304,40 @@ body{
 
 /* Achievements Area End */
 
+/* Special Sector */
+
+.special-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin-bottom: 130px;
+}
+
+.special{
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-top: 20px;
+}
+
+
+
+.last-img{
+    margin-top: 30px;
+    height: 270px;
+    width: 407px;
+    border-radius: 8px;
+}
+
+
+.me{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+/* Special Sector End */
+
 /* Sponsor Area */
 
 .sponsor-area{
@@ -331,12 +365,12 @@ body{
     height: 100px;
     background: #FFF4E7;
     border-radius: 8px;
-    margin-left: 260px;
+    margin-left: 299px;
     
 }
 
 footer{
-    margin-bottom: 440px;
+    margin-bottom: 300px;
 }
 
 .footer-des{
@@ -347,3 +381,167 @@ footer{
 
 
 /* Footer Area End */
+
+
+/* Responsive Area */
+
+@media (max-width:576px){
+    .nav-section{
+        flex-direction: column;
+        padding: 0px;
+        gap: 20px;
+    }
+    .slogan{
+        margin-top: 20px;
+        font-size: 36px;
+    }
+
+    .nav-right{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-right .nav-links {
+        text-decoration: none;
+        margin-left: 0px;
+        color: #424242;
+        padding: 8px;
+    }
+
+    .slogan-gap, .header-description {
+        margin-bottom: 30px;
+        margin: 5px;
+        margin-bottom: 20px;
+    }
+
+    .banner-photo .cover-img {
+        width: 327px;
+        height: 187px;
+        border-radius: 8px;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-right {
+        margin-left: 17px;
+    }
+
+    .features-left {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .basic-btn {
+        margin-left: 65px;
+    }
+
+    .sponsor-section {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .special-area {
+        flex-direction: column;
+    }
+
+    .skill-container {
+
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .huge-banner {
+        
+        flex-direction: column-reverse;
+        margin-bottom: 201px;
+    }
+
+    .huge-img {
+        height: 398px;
+        width: 288px;
+        margin-left: 0;
+    }
+
+    .btn-center {
+        
+        margin-top: 1268px;
+        margin-right: 0px;
+    }
+
+    .bg-color .last-des {
+        position: absolute;
+        width: 100%;
+        height: 79px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .last-img {
+        margin-top: -64px;
+        height: 187px;
+        width: 265px;
+        border-radius: 8px;
+    }
+
+    .all-area {
+        background: rgba(255, 144, 14, 0.1);
+        height: 774px;
+        margin-bottom: 13px;
+    }
+    .span2, .banner-title1 {
+        
+        font-size: 43px;
+    }
+
+    .f-description {
+        font-size: 13px;
+    }
+
+    .features-right {
+        margin-left: 0px;
+        margin-top: 17px;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 44px;
+        text-align: center;
+    }
+
+    .middle-area {
+        margin-bottom: -101px;
+    }
+    
+    .middle-area {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .me {
+        text-align: center;
+    }
+
+    .basic-btn {
+        margin-left: 0px;
+    }
+
+    .one {
+        margin-left: 94px;
+    }
+
+    }
+
+
+/* Responsive Area End */
