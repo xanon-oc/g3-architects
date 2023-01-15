@@ -266,3 +266,84 @@ body{
 }
 
 /* Facts Area End */
+
+
+/* Achievements Area */
+
+
+.what-do {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills {
+    padding: 33px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 141px;
+    width: 141px;
+}
+.skills:hover{
+    box-shadow: 0px 9px 52px rgba(0, 0, 0, 0.2);
+    
+}
+
+.skills1{
+    margin: 0;
+    padding: 0;
+}
+
+/* Achievements Area End */
+
+/* Sponsor Area */
+
+.sponsor-area{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+}
+
+/* Sponsor Area End */
+
+
+/* Footer Area */
+
+
+.bg-color .last-des{
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 260px;
+    
+}
+
+footer{
+    margin-bottom: 440px;
+}
+
+.footer-des{
+    text-align: center;
+    position: relative;
+    margin-top: 45px;
+}
+
+
+/* Footer Area End */
