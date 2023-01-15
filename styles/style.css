@@ -453,7 +453,7 @@ footer{
     .skill-container {
 
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
     }
 
     .huge-banner {
@@ -470,8 +470,22 @@ footer{
 
     .btn-center {
         
-        margin-top: 1650px;
+        margin-top: 1457px;
         margin-right: 0px;
+        
+    }
+
+    .btn-center:hover{
+        position: absolute;
+        width: 242px;
+        height: 150px;
+        text-align: center;
+        background-color: #5758BB;
+        color: #FFFFFF;
+        padding: 30px;
+        margin-top: 1457px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .bg-color .last-des {
